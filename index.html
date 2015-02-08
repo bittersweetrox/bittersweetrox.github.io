@@ -1,0 +1,563 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+<script src="position1.js"></script></head>
+
+
+
+
+<body>
+<canvas id="c1" height = "575" width = "1360" background-color = "red" >
+<img  id="image" src = "mapStates.png" height =100% width =100%>
+
+ <script>
+	var c=document.getElementById("c1");
+	var ctx=c.getContext("2d");
+	var img=document.getElementById("image");
+	ctx.drawImage(img,0,0);
+	c1.addEventListener("mousedown", getPosition, false);
+	
+	
+
+
+
+
+function getPosition(event)
+{
+  var x = event.x;
+  var y = event.y;
+
+  var canvas = document.getElementById("c1");
+
+  x -= canvas.offsetLeft;
+  y -= canvas.offsetTop;
+
+  console.log("x:" + x + " y:" + y);
+  
+  if(x >= 70 && x <= 158){
+	if(y >= 21 && y <= 80 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/WA");
+		//washington
+		}
+		}
+  
+  if(x >= 163 && x <= 238){
+	if(y >= 147 && y <= 191 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/ID");
+	//idaho
+  
+}
+
+}
+    if(x >= 231 && x <= 342){
+	if(y >= 68 && y <= 128 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MT");
+	//montana
+  
+}
+
+}
+  
+  if(x >= 54 && x <= 142){
+	if(y >= 103 && y <= 153 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/OR");
+	//oregon
+  
+}
+
+}
+  
+  if(x >= 93 && x <= 176){
+	if(y >= 229 && y <= 277 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NV");
+	//nevada
+  
+}
+
+}
+
+if(x >= 192 && x <= 262){
+	if(y >= 245 && y <= 286 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/UT");
+	//utah
+  
+}
+
+}
+
+if(x >= 33 && x <= 99){
+	if(y >= 277 && y <= 316 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/CA");
+	//California
+  
+}
+
+}
+
+if(x >= 159 && x <= 246){
+	if(y >= 362 && y <= 416 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/AZ");
+	//arizona
+  
+}
+
+}
+
+if(x >= 385 && x <= 485){
+	if(y >= 84 && y <= 121 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/ND");
+	//N.Dakota
+  
+}
+
+}
+
+if(x >= 381 && x <= 490){
+	if(y >= 153 && y <= 201 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/SD");
+	//S.Dakota
+  
+}
+
+}
+
+if(x >= 401 && x <= 482){
+	if(y >= 226 && y <= 263 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NE");
+	//nebraska
+  
+}
+
+}
+
+if(x >= 407 && x <= 513){
+	if(y >= 282 && y <= 334 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/KS");
+	//kansas
+  
+}
+
+}
+
+if(x >= 437 && x <= 524){
+	if(y >= 362 && y <= 407 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/OK");
+	//oklahoma
+  
+}
+
+}
+
+if(x >= 265 && x <= 356){
+	if(y >= 378 && y <= 423 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NM");
+	//NEW Mexico
+  
+}
+
+}
+
+if(x >= 283 && x <= 382){
+	if(y >= 266 && y <= 319 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/CO");
+	//colorado
+  
+}
+
+}
+
+if(x >= 259 && x <= 359){
+	if(y >= 166 && y <= 228 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/WY");
+	//wyoming
+  
+}
+
+}
+
+if(x >= 493 && x <= 562){
+	if(y >= 93 && y <= 132 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MN");
+	//minnesota
+  
+}
+
+}
+
+if(x >= 515 && x <= 579){
+	if(y >= 208 && y <= 254 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/IA");
+	//iowa
+  
+}
+
+}
+
+if(x >= 532 && x <= 605){
+	if(y >= 298 && y <= 329 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MO");
+	//missouri
+  
+}
+
+}
+
+if(x >= 543 && x <= 601){
+	if(y >= 387 && y <= 414 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/AK");
+	//arkansas
+  
+}
+
+}
+
+if(x >= 561 && x <= 623){
+	if(y >= 489 && y <= 515 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/LA");
+	//louisiana
+ 
+}
+
+}
+
+if(x >= 575 && x <= 635){
+	if(y >= 141 && y <= 177 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/WI");
+	//wisconsin
+  
+}
+
+}
+
+if(x >= 594 && x <= 649){
+	if(y >= 262 && y <= 297 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/IL");
+	//illinois
+  
+}
+
+}
+
+if(x >= 657 && x <= 700){
+	if(y >= 259 && y <= 290 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/IN");
+	//indiana
+  
+}
+
+}
+
+if(x >= 671 && x <= 729){
+	if(y >= 187 && y <= 208 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MI");
+	//michigan
+  
+}
+
+}
+
+if(x >= 704 && x <= 760){
+	if(y >= 238 && y <= 269 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/OH");
+	//ohio
+  
+}
+
+}
+
+if(x >= 678 && x <= 737){
+	if(y >= 314 && y <= 336 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/KY");
+	//kentucky
+  
+}
+
+}
+
+if(x >= 650 && x <= 722){
+	if(y >= 352 && y <= 379 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/TN");
+	//tennessee
+  
+}
+
+}
+
+if(x >= 594 && x <= 652){
+	if(y >= 440 && y <= 484 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MS");
+	//mississippi
+  
+}
+
+}
+
+if(x >= 654 && x <= 721){
+	if(y >= 423 && y <= 454 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/AL");
+	//alabama
+  
+}
+
+}
+
+if(x >= 722 && x <= 781){
+	if(y >= 411 && y <= 446 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/GA");
+	//georgia
+  
+}
+
+}
+
+if(x >= 770 && x <= 821){
+	if(y >= 380 && y <= 410 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/SC");
+	//South Carolina
+  
+}
+
+}
+
+if(x >= 765 && x <= 859){
+	if(y >= 344 && y <= 367 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NC");
+	//N.Carolina
+  
+}
+
+}
+
+if(x >= 798 && x <= 849){
+	if(y >= 295 && y <= 319 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/VA");
+	//virginia
+  
+}
+
+}
+
+if(x >= 751 && x <= 794){
+	if(y >= 284 && y <= 312 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/WV");
+	//w. virginia
+  
+}
+
+}
+
+if(x >= 777 && x <= 864){
+	if(y >= 212 && y <= 237 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/PA");
+	//Pennsylvania
+  
+}
+
+}
+
+if(x >= 823 && x <= 886){
+	if(y >= 162 && y <= 186 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NY");
+	//new york
+  
+}
+
+}
+
+if(x >= 919 && x <= 965){
+	if(y >= 83 && y <= 106 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/ME");
+	//maine
+  
+}
+
+}
+
+if(x >= 875 && x <= 897){
+	if(y >= 116 && y <= 139 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/VT");
+	//vermont
+  
+}
+
+}
+
+if(x >= 904 && x <= 922){
+	if(y >= 131 && y <= 156 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NH");
+	//new hampshire
+  
+}
+
+}
+
+if(x >= 895 && x <= 923){
+	if(y >= 170 && y <= 175 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MA");
+	//massachusetts
+  
+}
+
+}
+
+if(x >= 891 && x <= 919){
+	if(y >= 188 && y <= 194 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/CT");
+	//connecticut
+  
+}
+
+}
+
+if(x >= 873 && x <= 888){
+	if(y >= 235 && y <= 257 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/NJ");
+	//new jersey
+  
+}
+
+}
+
+if(x >= 866 && x <= 890){
+	if(y >= 258 && y <= 273 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/DE");
+	//delaware
+  
+}
+
+}
+
+if(x >= 906 && x <= 962){
+	if(y >= 296 && y <= 324 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/MD");
+	//maryland
+  
+}
+
+}
+
+if(x >= 379 && x <= 482){
+	if(y >= 442 && y <= 510 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/TX");
+	//texas
+  
+}
+
+}
+
+if(x >= 769 && x <= 1158){
+	if(y >= 513 && y <= 541 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/FL");
+	//florida
+  
+}
+
+}
+
+if(x >= 86 && x <= 158){
+	if(y >= 513 && y <= 541 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/AK");
+	//alaska
+  
+}
+
+}
+
+if(x >= 911 && x <= 1021){
+	if(y >= 327 && y <= 373 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/DC");
+	//washington dc
+  
+}
+
+}
+
+if(x >= 944 && x <= 1026){
+	if(y >= 196 && y <= 210 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/RI");
+	//rhode island
+  
+}
+
+}
+
+if(x = 267) {
+	if(y >= 551 && y <= 552 ){
+		
+		window.open("http://www.plannedparenthood.org/health-center/HI");
+	//hawaii
+  
+}
+
+}
+
+
+  }
+
+
+	
+	
+</script>
+
+</body>
+
+</html>
+
+<!-- height = "600" width = "1200" -->
+<!-- <area shape=rect coords=272, 137,1021, 560> -->
+<!-- <a href="http://google.com"> <canvas shape = rect coords=272, 137,1021, 560>  </a> -->
